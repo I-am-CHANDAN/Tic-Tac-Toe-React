@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Game {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #282d29;
+}
+
+.Game h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    user-select: none;
+}
+
+.Game h1 span {
+    color: greenyellow;
+}
+
+.winner-title {
+    color: greenyellow;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: sans-serif;
+}
+
+.winner-title img {
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.container .boxes {
+    height: 120px;
+    margin: 2px;
+    width: 120px;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #161716;
+    border: 1px solid rgb(126, 189, 90);
+    position: relative;
+}
+
+.container .boxes img {
+    margin: 40px;
+}
+
+.reset {
+    font-size: 23px;
+    font-family: sans-serif;
+    color: greenyellow;
+    width: 150px;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #282d29;
+    border: 1px solid rgb(126, 189, 90);
+}
+
+.reset:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width:400px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+    .container .boxes {
+        height: 80px;
+        width: 80px;
+    }
+} 
