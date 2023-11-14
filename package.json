@@ -1,6 +1,6 @@
 {
-  "name": "tic-tac-toe",
   "homepage": "https://I-am-CHANDAN.github.io/Tic-Tac-Toe-React",
+  "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
